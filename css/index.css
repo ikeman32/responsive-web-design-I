@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,10 +9,16 @@
     margin: 0 auto;
     padding: 20px 1.25%;
     /* TB LR */
+    border: 2px solid black;
+    width: 75%;
 }
 
 
 /* header */
+
+header {
+    width: 90%;
+}
 
 header nav {
     display: flex;
@@ -18,7 +28,7 @@ header nav {
 
 header nav a {
     margin-right: 65px;
-    font-size: 14px;
+    font-size: 1.1rem;
     color: gray;
     text-decoration: none;
 }
@@ -53,7 +63,7 @@ header nav a:last-child {
 }
 
 .cta-services h1 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .cta .cta-text {
@@ -91,7 +101,11 @@ header nav a:last-child {
     border-top: 1px solid black;
     margin-top: 76px;
     padding-top: 39px;
-    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+.main-content img {
+    width: 100%;
 }
 
 
@@ -103,7 +117,7 @@ header nav a:last-child {
 }
 
 .main-content .top-content .text-content {
-    width: 410px;
+    width: 50%;
     margin-right: 34px;
 }
 
@@ -141,14 +155,19 @@ header nav a:last-child {
 
 /*footer*/
 
+footer {
+    width: 100%;
+}
+
 footer div {
-    margin: 30px 250px;
+    margin-left: 10px;
+    width: 90%;
 }
 
 footer #copyright {
     margin: 32px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 
@@ -156,7 +175,7 @@ footer #copyright {
 
 @media screen and (max-width: 800px) {
     .container {
-        width: 90%;
+        width: 70%;
         margin: auto 0;
     }
     header nav {
