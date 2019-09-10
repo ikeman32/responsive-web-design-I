@@ -191,9 +191,23 @@ footer {
     .cta {
         width: 70%;
     }
+    .service-content {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 30px;
+        width: 75%;
+        border: 1px solid black;
+    }
     .service-content div {
-        flex-wrap: wrap;
-        width: 25%;
+        font-size: .9rem;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .bottom {
+        width: 70%;
+    }
+    .bottom div {
+        width: 100%;
     }
     .bottom div img {
         display: none;
